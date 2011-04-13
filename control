@@ -1,0 +1,10 @@
+Architecture: iphoneos-arm
+Name: updateBeGone
+Package: com.nito.updatebegone
+Version: 0.2
+Website: nitosoft.com
+Maintainer: nito
+Author: nito
+Description: Mobile Substrate Tweak to remove Update Nag screen.
+Section: Utilities
+Depends: mobilesubstrate

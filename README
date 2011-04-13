@@ -1,6 +1,6 @@
 updateBeGone copyright (c) 2010-2011 Kevin Bradley
 
-Simple half-assed mobile substrate tweak for AppleTV 2G that injects into the AppleTV.framework Private Framework in ATVSWUpdateCheckTask to make sure the task is never actually performed, in the future i would like to make the Update Block in nitoTV work off of this and then have this read some kind of a default value from 'mobile' user preferences.
+Simple half-assed mobile substrate tweak for AppleTV 2G that injects into the AppleTV.framework Private Framework in ATVSWUpdateCheckTask inside the function _shouldPerformCheck to make sure it always returns NO, in the future i would like to make the Update Block in nitoTV work off of this and then have this read some kind of a default value from 'mobile' user preferences.
 
 
 To build: 
